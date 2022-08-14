@@ -5,7 +5,7 @@ for i in range(1, tickets+1):
     print("Для посетителя #",i)
     age = int((input("Введите возраст ")))
     # Вставить номер покупателя
-    if age < 18:
+    if 0 < age < 18:
         count[0] = count[0] + 1
         summa[0] = 0
         print("Вход на конференцию бесплатно")
